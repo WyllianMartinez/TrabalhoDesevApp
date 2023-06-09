@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/black" /> <!-- Cor de fundo do botão -->
+            <corners android:topRightRadius="8dp"
+                android:bottomRightRadius="8dp"/> <!-- Raio dos cantos do botão -->
+        </shape>
+    </item>
+    <item android:top="3dp" android:right="3dp" android:bottom="3dp" android:left="3dp">
+        <shape>
+            <solid android:color="@color/button_tp_pessoa_marcado" /> <!-- Cor da borda do botão -->
+            <corners android:topRightRadius="8dp"
+                android:bottomRightRadius="8dp"/> <!-- Raio dos cantos da borda do botão -->
+        </shape>
+    </item>
+</layer-list>
+

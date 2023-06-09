@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PessoaActivity"
+    android:orientation="vertical"
+    android:background="@color/fundo_telas">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbar_padrao"
+
+        app:titleTextColor="@color/white"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/left_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="0dp"
+                android:paddingVertical="15dp"
+                android:background="@color/toolbar_padrao"
+                android:src="@drawable/menu" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="40dp"
+            android:paddingVertical="8dp"
+            android:backgroundTint="@color/button_amarelo"
+            android:text="Limpar Busca"
+            android:drawableLeft="@drawable/limpar"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+
+            android:paddingVertical="8dp"
+            android:backgroundTint="@color/button_azul_claro"
+            android:text="Novo Veículo"
+            android:drawableLeft="@drawable/novo_veiculo"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o modelo ou Placa..."
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_margin="12dp"
+        android:drawableLeft="@drawable/lupa"
+        android:drawablePadding="10dp"
+
+        android:background="@drawable/forma_edittext"
+        />
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/forma_edittext"
+        android:layout_margin="12dp"/>
+
+
+
+
+</LinearLayout>
