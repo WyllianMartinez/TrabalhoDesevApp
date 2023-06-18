@@ -19,6 +19,7 @@
     <color name="red">#B40404</color>
     <color name="green">#3ADF00</color>
     <color name="icons_gray">#424242</color>
+    <color name="fundo_login">#08088A</color>
 
 
 </resources>

@@ -101,7 +101,7 @@
 
             <Switch
                 android:id="@+id/switchButton"
-                style="@style/SwitchStatus"
+                style="@style/AppSwitchStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"

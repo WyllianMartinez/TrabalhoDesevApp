@@ -9,8 +9,21 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TrabalhoDesevApp"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
+        <activity
+            android:name=".MenuToolbarActivity"
+            android:exported="false"
+            android:label="@string/title_activity_menu_toolbar"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".MenusActivity"
+            android:exported="false"
+            android:label="@string/title_activity_menus"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
         <activity
             android:name=".UsuarioActivity"
             android:exported="false" />
@@ -39,7 +52,7 @@
             android:name=".PessoaActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_escolta"
+            android:icon="@drawable/escolta"
+            android:title="Escolta" />
+        <item
+            android:id="@+id/nav_relatório"
+            android:icon="@drawable/relatorio"
+            android:title="Relatório" />
+        <item
+            android:id="@+id/nav_pessoa"
+            android:icon="@drawable/pessoa"
+            android:title="Pessoa" />
+        <item
+            android:id="@+id/nav_veiculo"
+            android:icon="@drawable/veiculo"
+            android:title="Veículo" />
+        <item
+            android:id="@+id/nav_checklist"
+            android:icon="@drawable/checklist"
+            android:title="Checklist" />
+        <item
+            android:id="@+id/nav_configuracao"
+            android:icon="@drawable/configuracao"
+            android:title="Configurações" />
+        <item
+            android:id="@+id/nav_usuarios"
+            android:icon="@drawable/usuario"
+            android:title="Usuários" />
+
+    </group>
+</menu>
