@@ -12,11 +12,6 @@
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".MenuToolbarActivity"
-            android:exported="false"
-            android:label="@string/title_activity_menu_toolbar"
-            android:theme="@style/NoActionBar" />
-        <activity
             android:name=".MenusActivity"
             android:exported="false"
             android:label="@string/title_activity_menus"
